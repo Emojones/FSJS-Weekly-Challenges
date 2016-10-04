@@ -36,9 +36,5 @@ $('#VolumeIncrease').click(function () {
 
 //Create a button that prints the object and its attributes to the page (use the span "output".
 $('#Print').click(function () {
-    $('#output').html("<p>Height: " + box.height + "</P></br><p>Weight: " + box.weight + "</P></br><p>Volume: " + box.volume + "</P>");
+    $('#output').html("<p>Height: " + box.height + "</P><p>Weight: " + box.weight + "</P><p>Volume: " + box.volume + "</P>");
 });
-
-
-//Extra credit
-//Create interactive buttons to decrease or increase the Width and Volume
